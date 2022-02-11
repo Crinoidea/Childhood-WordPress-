@@ -77,15 +77,7 @@
                     <div class="col-md-10 offset-md-1 col-lg-5 offset-lg-1">
                         <div class="about__img">
                            
-                            <?php
-                                $image = get_field('about_img', 2);
-
-                                if (!empty($image)): ?>
-                                    <img 
-                                    src="<?php echo $image['url']; ?>" 
-                                    alt="<?php echo $image['alt']; ?>">
-                                <?php endif;
-                            ?>
+                            <img src="<?php echo bloginfo('template_url');?>/assets/img/about.jpg" alt="про нас">
 
                         </div>
                     </div>
