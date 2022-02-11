@@ -20,6 +20,8 @@
 
 // ** Параметры базы данных: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', 'C:\MAMP\htdocs\wordPressCourse\childhood\wp-content\plugins\wp-super-cache/' );
 define( 'DB_NAME', 'childhood' );
 
 /** Имя пользователя базы данных */
